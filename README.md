@@ -6,9 +6,9 @@ LearnLoop AI is a Streamlit app that works as a personal study tutor. Enter any 
 
 It was built for ForgeHacks and uses the Groq API for all language model calls.
 
-> **Live demo:** [scamshield-ai on Streamlit](https://learnloop-ai-oatyrgo8mhbz5krk2mouki.streamlit.app/)
+> **Live demo:** [learnloop-ai on Streamlit](https://learnloop-ai-oatyrgo8mhbz5krk2mouki.streamlit.app/)
 >
-> ![LearnLoop AI screenshot](logo/pic.png)
+> ![LearnLoop AI screenshot](screenshots/learnloop-dashboard.png)
 
 ## Why this exists
 
@@ -55,8 +55,8 @@ Choose Beginner, Intermediate, or Advanced, and get explanations in Simple Engli
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/MuhammadSharafat/LearnLoop-AI.git
+cd LearnLoop-AI
 
 python -m venv venv
 source venv/bin/activate        # macOS / Linux
