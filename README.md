@@ -8,7 +8,7 @@ It was built for ForgeHacks and uses the Groq API for all language model calls.
 
 > **Live demo:** [learnloop-ai on Streamlit](https://learnloop-ai-oatyrgo8mhbz5krk2mouki.streamlit.app/)
 >
-> ![LearnLoop AI screenshot](screenshots/learnloop-dashboard.png)
+> ![LearnLoop AI screenshot](logo/pic.png)
 
 ## Why this exists
 
