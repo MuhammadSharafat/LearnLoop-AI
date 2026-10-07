@@ -24,12 +24,14 @@ st.markdown(
     """
     <style>
     .stApp {
-        background: linear-gradient(135deg, #f6f8ff, #f8fbff, #f1f5ff);
+        background: var(--background-color);
+        color: var(--text-color);
     }
 
     .block-container {
         max-width: 1100px;
         padding-top: 2rem;
+        padding-bottom: 3rem;
     }
 
     .hero {
@@ -41,14 +43,45 @@ st.markdown(
     }
 
     .hero h1 {
-        color: white;
+        color: white !important;
         font-size: 2.7rem;
         margin-bottom: 0.3rem;
     }
 
     .hero p {
-        color: #e8eeff;
+        color: #e8eeff !important;
         font-size: 1.1rem;
+    }
+
+    /* Make normal text follow the selected Streamlit theme */
+    .stMarkdown,
+    .stText,
+    label,
+    p {
+        color: var(--text-color);
+    }
+
+    /* Input fields */
+    .stTextInput input {
+        background-color: var(--secondary-background-color);
+        color: var(--text-color);
+    }
+
+    /* Select boxes */
+    [data-baseweb="select"] {
+        background-color: var(--secondary-background-color);
+    }
+
+    /* Keep tabs readable in both themes */
+    button[data-baseweb="tab"] {
+        color: var(--text-color);
+    }
+
+    /* Metric cards */
+    [data-testid="stMetric"] {
+        background-color: var(--secondary-background-color);
+        padding: 1rem;
+        border-radius: 14px;
     }
     </style>
     """,
